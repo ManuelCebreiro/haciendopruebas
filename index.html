@@ -21,13 +21,24 @@
     <div class="container justify-content-center">
         <div class="row mt-5"></div>
         <div class="row align-items-center mt-5">
-            <div class="cajayellow col"><p>Aqui viene texto</p></div>
-            <div class="col-4 text-center"><button id="btn" type="button" class="btn btn-warning">Warning</button></div>
-          
-            <div class="cajared col-4">
+            <div class="cajayellow col text-center">
+                <input type="text" id="name" name="name" required
+                           minlength="4" maxlength="10" size="20" style="border: solid black">
+                    
+                <p>Introduce texto aquí</p></div>
+            
+            <div class="col-4 d-flex flex-column px-5 ">
+                <button id="btn" type="button" class="btn btn-danger">Color</button>
+                <button id="btn" type="button" class="btn bg-success">Algo</button>
+                <button id="btn" type="button" class="btn btn-warning">Algo</button>
+                <button id="btn" type="button" class="btn btn-primary">Algo</button></div>
+                
+                
+
+            <div class="cajared col-4 text-center">
                 <ul class="list-group">
-                    <li class="list-group">Contenido 1</li>
-                    <li class="list-group">Contenido 2</li>
+                    <li class="list-group" style="background-color: white; border: solid black; margin-bottom: 4%;">Contenido 1</li>
+                    <li class="list-group" style="background-color: white; border: solid black; margin-bottom: 4%;">Contenido 2</li>
                 </ul>
             </div>
         </div>
